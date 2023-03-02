@@ -1,0 +1,22 @@
+uuid: 9501950c-8999-4b9a-9baf-3f29d7a36cac
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - DreamAgency
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: DreamAgency_content
+theme: DreamAgency
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

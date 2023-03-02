@@ -11,7 +11,7 @@ grumphp:
     composer: ~
     jsonlint: ~
     twigcs:
-      path: 'web'
+      path: "web"
       ruleset: 'FriendsOfTwig\Twigcs\Ruleset\Official'
       exclude:
         - core
@@ -19,7 +19,7 @@ grumphp:
         - themes/contrib
         - profiles/contrib
     phpcpd:
-      directory: ['./web/modules/custom']
+      directory: ["./web/modules/custom"]
     phpcs:
       standard:
         - phpcs.xml
@@ -47,11 +47,11 @@ grumphp:
     phpmd:
       whitelist_patterns:
         - /^web\/modules\/custom\/(.*)/
-      ruleset: ['phpmd.xml']
-      triggered_by: ['php']
+      ruleset: ["phpmd.xml"]
+      triggered_by: ["php"]
     npm_script:
       script: lint
       triggered_by: [js, jsx, ts, scss, css]
-      working_directory: web/themes/custom/drupalastic
+      working_directory: web/themes/custom/DreamAgency
       is_run_task: true
       silent: false
