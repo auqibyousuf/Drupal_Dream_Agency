@@ -1,0 +1,20 @@
+uuid: dbcd041f-627b-4395-ac5f-578aaa50c5b9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - DreamAgency
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: DreamAgency_local_actions
+theme: DreamAgency
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
